@@ -10,7 +10,8 @@
     --cor0: #ffe4ca;
     --cor1: #f5f5dc;
     --cor2: #0000ff;
-    --cor3: #4d9e4d;
+    --cor3: #7edd7e;
+    --cor4: #ff0000;
 }
 
 header {
@@ -19,17 +20,22 @@ header {
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    border: solid 4px var(--cor3);
+    margin: 1em;
+    padding: 2em;
 }
 
 img {
+
     width: 10em;
     padding-right: 30px;
-    background-color: var(--cor1);
+    background-color: var(--cor2);
 }
 
 h1 {
     color: var(--cor2);
-    padding-right: 10em;
+  
+    margin-left: 1em;
 }
 
 h2 {
@@ -37,9 +43,10 @@ h2 {
 }
 
 nav {
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
+    padding: 1em;
 }
 
 a {
@@ -63,7 +70,9 @@ a {
     margin: 20px;
     padding-bottom: 2em;
 
-}.formacao {
+}
+
+.formacao {
     margin: 20px;
     padding-bottom: 2em;
 
@@ -74,12 +83,11 @@ a {
     padding-bottom: 2em;
 
 }
+
 .contatos {
     margin: 20px;
     padding-bottom: 2em;
 
 }
 
-@media screen and(max-width:700px) {
-    
-}
+@media screen and(max-width:700px) {}
