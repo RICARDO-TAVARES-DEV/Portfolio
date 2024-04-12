@@ -1,29 +1,85 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-background-image: url(./imagens/fundo_portfolio-1.jpg);
-background-repeat: no-repeat;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./imagens/fundo_portfolio-1.jpg);
+    background-repeat: no-repeat;
 }
 
-header{
+:root {
+    --cor0: #ffe4ca;
+    --cor1: #f5f5dc;
+    --cor2: #0000ff;
+    --cor3: #4d9e4d;
+}
 
-display: flex;
+header {
+
+    display: flex;
     width: 100%;
-    border: solid red 2px;
     justify-content: space-between;
     align-items: center;
 }
-img {
-width: 10em;
 
+img {
+    width: 10em;
+    padding-right: 30px;
+    background-color: var(--cor1);
 }
-h1{
-    color: bisque;
+
+h1 {
+    color: var(--cor2);
     padding-right: 10em;
 }
 
-h2{
-background-color: blue;
-    color: beige;
+h2 {
+    color: var(--cor3);
+}
+
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor3);
+}
+
+.sobre {
+    margin: 100px;
+    padding-bottom: 2em;
+    line-height: 2em;
+}
+
+.skills {
+    margin: 20px;
+    padding-bottom: 2em;
+
+}
+
+.hobbies {
+    margin: 20px;
+    padding-bottom: 2em;
+
+}.formacao {
+    margin: 20px;
+    padding-bottom: 2em;
+
+}
+
+.projetos {
+    margin: 20px;
+    padding-bottom: 2em;
+
+}
+.contatos {
+    margin: 20px;
+    padding-bottom: 2em;
+
+}
+
+@media screen and(max-width:700px) {
+    
 }
