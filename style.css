@@ -1,0 +1,29 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-image: url(./imagens/fundo_portfolio-1.jpg);
+background-repeat: no-repeat;
+}
+
+header{
+
+display: flex;
+    width: 100%;
+    border: solid red 2px;
+    justify-content: space-between;
+    align-items: center;
+}
+img {
+width: 10em;
+
+}
+h1{
+    color: bisque;
+    padding-right: 10em;
+}
+
+h2{
+background-color: blue;
+    color: beige;
+}
